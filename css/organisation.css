@@ -1,0 +1,397 @@
+.organisation__container {
+  position: relative;
+  padding-top: 80px;
+  padding-right: 226px;
+  padding-bottom: 66px;
+  background-color: #232323;
+}
+
+.organisation__content {
+  position: relative;
+  text-align: center;
+}
+
+.organisation__container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  width: 100%;
+  height: 100%;
+  height: 100%;
+  background-image: url("../img/organization-bg.png");
+}
+
+.organisation__heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Cormorant Infant";
+  font-size: 115px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 115px;
+  color: #e3ded8;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+}
+
+.organisation__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Gilroy";
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 37px;
+  color: #e3ded8;
+  letter-spacing: .01em;
+}
+
+.organisation__text-small {
+  display: none;
+}
+
+.organisation__button-wrapper {
+  padding-top: 41px;
+  padding-right: 184px;
+  padding-bottom: 26px;
+  padding-left: 31px;
+  background-image: url("../img/zigzag.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.organisation__button {
+  position: relative;
+  z-index: 2;
+  padding-top: 17px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 22px;
+  font-family: "Gilroy";
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 38px;
+  color: #232323;
+  letter-spacing: .01em;
+  background: #e3ded8;
+}
+
+.top {
+  padding-right: 55px;
+  text-align: right;
+}
+
+.middle {
+  text-align: left;
+}
+
+.bottom {
+  margin-bottom: 12px;
+  text-align: right;
+}
+
+.text-top {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.text-middle {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.text-bottom {
+  margin-bottom: 60px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.organisation__img {
+  position: absolute;
+  top: -60px;
+  left: 250px;
+}
+
+.organisation__img-small {
+  display: none;
+}
+
+.extra {
+  display: none;
+}
+
+@media (max-width: 1660px) {
+  .organisation__img {
+    top: -25px;
+    left: 0;
+    width: 141px;
+    height: 73.5px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .organisation__container {
+    padding-top: 60px;
+    padding-right: 169px;
+    padding-bottom: 49px;
+    padding-left: 124.5px;
+  }
+
+  .organisation__heading {
+    font-size: 86.25px;
+    line-height: 87px;
+  }
+
+  .organisation__img {
+    top: -25px;
+    left: 175px;
+    width: 141px;
+    height: 73.5px;
+  }
+
+  .bottom {
+    margin-bottom: 9px;
+  }
+
+  .organisation__text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .text-top {
+    margin-bottom: 10px;
+  }
+
+  .text-middle {
+    margin-bottom: 10px;
+  }
+
+  .text-bottom {
+    margin-bottom: 44px;
+    padding-left: 14px;
+  }
+
+  .organisation__button-wrapper {
+    padding-top: 31.5px;
+    padding-right: 156px;
+    padding-bottom: 20px;
+    padding-left: 33px;
+    background-image: url("../img/zigzag-1440.png");
+  }
+
+  .organisation__button {
+    padding-top: 12.75px;
+    padding-right: 17.5px;
+    padding-bottom: 15px;
+    padding-left: 16.5px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .organisation__container {
+    padding-top: 53px;
+    padding-right: 150px;
+    padding-bottom: 43px;
+    padding-left: 110px;
+  }
+
+  .organisation__heading {
+    font-size: 77px;
+    line-height: 77px;
+  }
+
+  .organisation__img {
+    top: -25px;
+    left: 150px;
+    width: 125px;
+    height: 65px;
+  }
+
+  .bottom {
+    margin-bottom: 7px;
+  }
+
+  .organisation__text {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .text-top {
+    margin-bottom: 8px;
+  }
+
+  .text-middle {
+    margin-bottom: 8px;
+  }
+
+  .text-bottom {
+    margin-bottom: 39px;
+    padding-left: 27px;
+  }
+
+  .organisation__button-wrapper {
+    padding-top: 27px;
+    padding-right: 138px;
+    padding-bottom: 19px;
+    padding-left: 28px;
+    background-image: url("../img/zigzag-1280.png");
+  }
+
+  .organisation__button {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .organisation__img {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .organisation__container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .organisation__heading {
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+  }
+
+  .organisation__text {
+    font-size: 18px;
+  }
+
+  .top {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .organisation__container {
+    padding-top: 30px;
+    padding-right: 19px;
+    padding-left: 19px;
+  }
+
+  .organisation__heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .organisation__heading-extra {
+    display: inline;
+  }
+
+  .organisation__img-small {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    display: flex;
+  }
+
+  .top {
+    text-align: left;
+  }
+
+  .middle,
+  .bottom {
+    padding-left: 50px;
+    text-align: left;
+  }
+
+  .bottom {
+    margin-bottom: 40px;
+  }
+
+  .organisation__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .text-top,
+  .text-middle,
+  .text-bottom {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .text-bottom {
+    margin-bottom: 40px;
+  }
+
+  .organisation__button-wrapper {
+    padding-top: 9px;
+    padding-right: 87px;
+    padding-bottom: 14px;
+    padding-left: 19px;
+    background-image: url("../img/zigzag-small.png");
+  }
+
+  .organisation__button {
+    padding-top: 8px;
+    padding-right: 9px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    font-size: 13.5px;
+    line-height: 16px;
+  }
+
+  .extra {
+    display: none;
+  }
+
+  .bottom-extra {
+    display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .organisation__text {
+    display: none;
+  }
+
+  .organisation__text-small {
+    display: block;
+    margin: 0;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+    color: #e3ded8;
+    letter-spacing: .01em;
+  }
+
+  .text-small-one,
+  .text-small-three,
+  .text-small-five {
+    text-align: left;
+  }
+
+  .text-small-two {
+    text-align: right;
+  }
+
+  .text-small-four {
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  .text-small-five {
+    margin-bottom: 40px;
+  }
+}

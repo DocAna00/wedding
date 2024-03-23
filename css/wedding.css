@@ -1,0 +1,261 @@
+.wedding__container {
+  padding-top: 60px;
+  padding-bottom: 222px;
+  background-image: url("../img/wedding-bg-big.png");
+}
+
+.wedding__content {
+  position: relative;
+}
+
+.wedding__name {
+  display: none;
+}
+
+.wedding__menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wedding__logo {
+  margin-bottom: 105px;
+}
+
+.wedding__heading {
+  max-width: 739px;
+  margin-top: 0;
+  margin-bottom: 70px;
+  font-family: "Cormorant Infant";
+  font-size: 80px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 90px;
+  color: #e3ded8;
+  letter-spacing: .01em;
+  text-transform: uppercase;
+}
+
+.wedding__text {
+  max-width: 555px;
+  margin-top: 0;
+  margin-bottom: 47px;
+  font-family: "Gilroy";
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 37px;
+  color: #e3ded8;
+}
+
+.wedding__button-wrapper {
+  padding-top: 41px;
+  padding-right: 184px;
+  padding-bottom: 26px;
+  padding-left: 39px;
+  background-image: url("../img/zigzag.png");
+  background-repeat: no-repeat;
+}
+
+.wedding__button {
+  padding-top: 17px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 22px;
+  font-family: "Gilroy";
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 38px;
+  color: #232323;
+  letter-spacing: .01em;
+  background: #e3ded8;
+}
+
+.wedding__phone-image {
+  position: absolute;
+  top: 120px;
+  right: -20px;
+}
+
+@media (max-width: 1440px) {
+  .wedding__container {
+    padding-top: 45px;
+    padding-right: 123px;
+    padding-bottom: 139px;
+    padding-left: 123px;
+    background-image: url("../img/bg-1440.png");
+    background-repeat: no-repeat;
+  }
+
+  .wedding__logo {
+    width: 174px;
+    height: 45px;
+  }
+
+  .wedding__menu-img {
+    width: 37.5px;
+    height: 21px;
+  }
+
+  .wedding__phone-image {
+    top: 80px;
+    right: -15px;
+    width: 67.5px;
+    height: 510px;
+  }
+
+  .wedding__heading {
+    max-width: 554px;
+    margin-bottom: 52px;
+    font-size: 60px;
+    line-height: 68px;
+  }
+
+  .wedding__text {
+    max-width: 416px;
+    margin-bottom: 33px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .wedding__button-wrapper {
+    padding-top: 31.5px;
+    padding-right: 156px;
+    padding-bottom: 20px;
+    padding-left: 33px;
+    background-image: url("../img/zigzag-1440.png");
+  }
+
+  .wedding__button {
+    padding-top: 12.75px;
+    padding-right: 17.5px;
+    padding-bottom: 15px;
+    padding-left: 16.5px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .wedding__container {
+    padding-top: 40px;
+    padding-right: 110px;
+    padding-bottom: 112px;
+    padding-left: 110px;
+    background-image: url("../img/bg-1280.png");
+    background-repeat: no-repeat;
+  }
+
+  .wedding__logo {
+    width: 155px;
+    height: 40px;
+  }
+
+  .wedding__menu-img {
+    width: 33px;
+    height: 19px;
+  }
+
+  .wedding__phone-image {
+    top: 70px;
+    right: -13px;
+    width: 60px;
+    height: 453px;
+  }
+
+  .wedding__heading {
+    max-width: 493px;
+    margin-bottom: 47px;
+    font-size: 53px;
+    line-height: 60px;
+  }
+
+  .wedding__text {
+    max-width: 370px;
+    margin-bottom: 29px;
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .wedding__button-wrapper {
+    padding-top: 27px;
+    padding-right: 138px;
+    padding-bottom: 19px;
+    padding-left: 28px;
+    background-image: url("../img/zigzag-1280.png");
+  }
+
+  .wedding__button {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wedding__container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wedding__container {
+    padding-top: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-image: url(../img/bg-small.webp);
+    background-size: cover;
+  }
+
+  .wedding__logo {
+    width: 102px;
+    height: 26px;
+    margin-bottom: 360px;
+  }
+
+  .wedding__menu-img {
+    width: 30px;
+    height: 18px;
+  }
+
+  .wedding__phone-image {
+    display: none;
+  }
+
+  .wedding__button-wrapper,
+  .wedding__button {
+    display: none;
+  }
+
+  .wedding__heading {
+    max-width: 302px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+  }
+
+  .wedding__text {
+    max-width: 177px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+  }
+
+  .wedding__content-wrapper {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 390px) {
+  .wedding__container {
+    padding-bottom: 44px;
+  }
+}

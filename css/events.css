@@ -1,0 +1,103 @@
+.events__container {
+  padding: 0;
+}
+
+.events__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.events__list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 480px; */
+  width: calc(100% / 4);
+  height: 450px;
+  border: 1px solid #000000;
+  font-family: "Cormorant Infant";
+  font-size: 39px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 47px;
+  color: #e3ded8;
+  text-align: center;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+}
+
+.item-1 {
+  background-image: url("../img/card-8.png");
+  background-size: cover;
+}
+
+.item-2 {
+  background-image: url("../img/card-2.png");
+  background-size: cover;
+}
+
+.item-3 {
+  background-image: url("../img/card-3.png");
+  background-size: cover;
+}
+
+.item-4 {
+  background-image: url("../img/card-4.png");
+  background-size: cover;
+}
+
+.item-5 {
+  background-image: url("../img/card-5.png");
+  background-size: cover;
+}
+
+.item-6 {
+  background-image: url("../img/card-6.png");
+  background-size: cover;
+}
+
+.item-7 {
+  background-image: url("../img/card-7.png");
+  background-size: cover;
+}
+
+.item-8 {
+  background-image: url("../img/card-1.png");
+  background-size: cover;
+}
+
+@media (max-width: 1440px) {
+  .events__list-item {
+    height: 337.5px;
+    font-size: 29.25px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .events__list-item {
+    height: 300px;
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 992px) {
+  .events__list-item {
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: 768px) {
+  .events__list-item {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media (max-width: 600px) {
+  .events__list-item {
+    width: calc(100% / 2);
+    height: 183px;
+  }
+}

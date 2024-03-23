@@ -1,0 +1,59 @@
+/* cormorant-infant-regular - cyrillic_latin */
+@font-face {
+  font-family: "Cormorant Infant";
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/cormorant-infant-v17-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+/* cormorant-infant-500 - cyrillic_latin */
+@font-face {
+  font-family: "Cormorant Infant";
+  font-weight: 500;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/cormorant-infant-v17-cyrillic_latin-500.woff2") format("woff2");
+}
+
+/* cormorant-infant-600 - cyrillic_latin */
+@font-face {
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/cormorant-infant-v17-cyrillic_latin-600.woff2") format("woff2");
+}
+
+/* cormorant-infant-700 - cyrillic_latin */
+@font-face {
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/cormorant-infant-v17-cyrillic_latin-700.woff2") format("woff2");
+}
+
+/* gilroy-regular */
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2");
+}
+
+/* gilroy-semibold */
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/Gilroy-Semibold.woff2") format("woff2");
+}
